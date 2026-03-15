@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+            http-equiv="X-Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+    />
+    <title>Historial IMC</title>
+    <link rel="stylesheet" href="../styles/Style.css">
+</head>
+<body>
+    <h1 class="title">HISTORIAL</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Peso</th>
+                <th>Altura</th>
+                <th>IMC</th>
+                <th>clasificacion</th>
+            </tr>
+        </thead>
+        <tbody id="tablaHistorial">
+        </tbody>
+    </table>
+
+
+    <button id="botonVolver">volver</button>    
+
+    <script src="../renderer/historial.js" defer></script>
+</body>

@@ -1,0 +1,23 @@
+[
+  {
+    "nombre": "Pepito",
+    "peso": 65,
+    "altura": 1.77,
+    "imc": "20.75",
+    "clasificacion": "NORMAL"
+  },
+  {
+    "nombre": "Justin",
+    "peso": 21,
+    "altura": 1.56,
+    "imc": "8.63",
+    "clasificacion": "NORMAL"
+  },
+  {
+    "nombre": "Dali",
+    "peso": 71,
+    "altura": 1.6,
+    "imc": "27.73",
+    "clasificacion": "SOBREPESO"
+  }
+]

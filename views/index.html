@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+            http-equiv="X-Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+    />
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="../styles/Style.css">
+</head>
+<body>  
+
+<h1 class="title">Calculadora IMC</h1>
+<div class="contenido">
+        <div class="formulario">
+                <form>  
+                        <label>Nombre</label>
+                        <input id="nombre" placeholder="Ex. Pepito">
+                        <label>Altura (M)</label>
+                        <input id="altura" type="number" placeholder="Ex. 1.77">
+                        <label>Peso (kg)</label>
+                        <input id="peso" type="number" placeholder="Ex. 65">
+                </form>
+
+                <br>
+                <button id="boton"> Calcular imc </button>
+                <br>
+        </div>  
+        <div class="resultados">
+                
+                <h1>Resultados</h1>
+                <h2 id="resultado"></h2>
+                <h3 id="clasificacion"></h3>
+                <button id="botonHistorial">Consultar historial</button>
+
+        </div>
+</div>
+
+
+<script src="../renderer/renderer.js" defer></script>
+
+</body>
+
+</html>
