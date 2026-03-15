@@ -1,0 +1,22 @@
+# dependencias
+node_modules/
+
+# archivos de compilación o empaquetado
+dist/
+out/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# archivos del sistema
+.DS_Store
+Thumbs.db
+
+# variables de entorno
+.env
+
+# cache
+.cache/
