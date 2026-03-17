@@ -19,5 +19,33 @@
     "altura": 1.6,
     "imc": "27.73",
     "clasificacion": "SOBREPESO"
+  },
+  {
+    "nombre": "Claudia",
+    "peso": 40,
+    "altura": 1.56,
+    "imc": "16.44",
+    "clasificacion": "NORMAL"
+  },
+  {
+    "nombre": "Lily",
+    "peso": 65,
+    "altura": 1.58,
+    "imc": "26.04",
+    "clasificacion": "SOBREPESO"
+  },
+  {
+    "nombre": "Lili",
+    "peso": 56,
+    "altura": 1.58,
+    "imc": "22.43",
+    "clasificacion": "NORMAL"
+  },
+  {
+    "nombre": "",
+    "peso": 11,
+    "altura": 11,
+    "imc": "0.09",
+    "clasificacion": "NORMAL"
   }
 ]

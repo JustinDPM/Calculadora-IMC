@@ -1,9 +1,10 @@
 :root {
-    --color-fondo: #201444;
+    --color-fondo: #1d1d1e;
     --color-texto: #ffffff;
     --color-label: #191936;
     --color-boton: #020734;
     --color-input: #030429;
+    --color-recuadros: #323233;
 }
 
 body {
@@ -17,12 +18,13 @@ body {
 }
 
 h1 {
-    border-bottom: 2px solid var(--color-boton);
+    border-bottom: 2px solid var(--color-texto);
     padding-bottom: 10px;
     text-align: center;
 
 }
 h2 {
+    color: var(--color-texto) ;
     padding-bottom: 10px;
 }
 h3{
@@ -37,17 +39,19 @@ p {
 
 label {
     display: block;
-    color: var(--color-label);
+    text-align: start;
+    color: var(--color-texto);
+    border-radius: 10px;
     padding-bottom: 10px;
 }
 input {
     display: block;
-    color: #ffffff;
+    color: var(--color-texto);
     padding: 10px;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-boton);
     margin-bottom: 10px;
-    background-color:var(--color-input);
+    background-color:var(--color-fondo);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: 0.2s;
     
@@ -56,11 +60,11 @@ input {
 input:focus {
     outline: none;
     border-color: var(--color-fondo);
-    box-shadow: 0 0 5px rgba(255,148,172,0.5);
+    box-shadow: 0 0 7px var(--color-boton);
 }
 
 button {
-    background-color: #333;
+    background-color: var(--color-boton);
     color: var(--color-texto);
     border: none;
     padding: 10px 20px;
@@ -79,7 +83,7 @@ table {
     width: 90%;
     margin: 20px auto;
     border-collapse: collapse;
-    background-color: #2a234d; /* fondo oscuro */
+    background-color: var(--color-recuadros); /* fondo oscuro */
     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     border-radius: 8px;
     overflow: hidden;
@@ -88,7 +92,7 @@ table {
 }
 
 thead th {
-    background-color: #4b367c; /* encabezado morado oscuro */
+    background-color: var(--color-recuadros); /* encabezado morado oscuro */
     color: var(--color-texto);
     padding: 12px;
     text-align: center;
@@ -97,11 +101,11 @@ thead th {
 tbody td {
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid #3e3160; /* separadores suaves */
+    border-bottom: 1px solid var(--color-recuadros); /* separadores suaves */
 }
 
 tbody tr:hover {
-    background-color: #3e3160; /* resaltar fila al pasar mouse */
+    background-color: var(--color-recuadros); /* resaltar fila al pasar mouse */
 }
 
 
@@ -118,7 +122,7 @@ tbody tr:hover {
     align-items: center;
     width: 150px;
     padding: 50px;
-    background-color: #ccc;
+    background-color: var(--color-recuadros);
     border-radius: 10px;
     box-shadow: 0 4px 10px #020734;
 }
@@ -127,12 +131,13 @@ tbody tr:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: var(--color-input);
+    color: var(--color-texto);
     width: 150px;
     padding: 50px;
-    background-color: #ccc;
+    background-color: var(--color-recuadros);
     border-radius: 10px;
     min-width: 200px;
+    box-shadow: 0 4px 10px #020734;
 }
 
 .title {
